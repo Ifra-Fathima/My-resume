@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:5px solid rgb(104, 124, 204);
+    margin: auto;
+    
+}
+
+.left-div{
+    flex:0 0 28%;
+    box-sizing: border-box;
+    height: fit-content;
+    margin: 30px 0px 0px 20px;
+    padding: 20px;
+    border-right: 3px solid grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-div{
+    flex:0 0 70%;
+    box-sizing: border-box;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.right-div p{
+    font-size: 18px;
+}
+
+span{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(71, 81, 122);
+    margin-top: 500px;
+}
+
+.awards p{
+    color: rgb(55, 54, 54);
+    font-style: italic;
+}
+
+.languages p{
+    color: rgb(224, 60, 60);
+}
+
+.interests>p{
+    font-size: 17px;
+    font-style:normal
+}
+
+.right-div h1{
+    font-size: 50px;
+    color: rgb(40, 96, 132);
+}
+
+.right-div h3{
+    color: rgb(201, 56, 56);
+    font-size: 25px;
+}
+
+.connect i{
+    color: rgb(201, 56, 56);
+    margin-right: 10px;
+}
+
+.connect{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,auto);
+    gap: 25px;
+    justify-items: start;
+    align-items:center;
+    
+}
+
+.skills p{
+    border-radius: 7px;
+    background-color: rgb(143, 188, 203);
+    margin: 10px;
+    padding: 5px;
+}
+
+.intro p{
+    font-size: 25px;
+}
+
+.education h3{
+    color: black;
+    font-size: 20px;
+}
+
+.interests i{
+    color:rgb(71, 81, 122);
+    margin-right: 10px;
+    margin-bottom: 7px;
+}
